@@ -22,7 +22,7 @@ from about import views as about_views
 urlpatterns = [
     path('', index_views.index, name='index'),  # Add this line to handle the root path
     # path('hello/', index_views.index, name='index'),
-    path('catalogue/', index_views.catalogue, name='catalogue'),  # Add this line for the catalogue URL
+    # path('catalogue/', index_views.catalogue, name='catalogue'),  # Add this line for the catalogue URL
     path('about/', about_views.about_me, name='index'),
     path('admin/', admin.site.urls),
 ]
